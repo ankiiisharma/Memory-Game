@@ -21,9 +21,10 @@ JavaScript <br>
 # Installation
 Clone the repository:
 Bash
-git clone - https://github.com/ankiiisharma/Memory-Game.git
-Use code with caution. Learn more
-Open the index.html file in a web browser.
+git clone - https://github.com/ankiiisharma/Memory-Game.git <br>
+Use code with caution.<be>
+
+Open the 'index.html' file in a web browser.
 Contributing
 Fork the repository.
 Create your changes.
