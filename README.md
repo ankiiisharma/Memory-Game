@@ -14,9 +14,9 @@ Easy to use interface
 Challenging gameplay
 
 # Technologies Used
-HTML
-CSS
-JavaScript
+HTML <br>
+CSS <br>
+JavaScript <br>
 
 # Installation
 Clone the repository:
