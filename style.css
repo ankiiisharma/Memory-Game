@@ -14,7 +14,6 @@ body{
   align-items: center;
 }
 
-/* CSS */
 .button-87 {
   font-family: Montserrat;
   margin: 10px;
@@ -45,17 +44,34 @@ body{
   transform: scale(0.95);
 }
 
-.card{
-  height: 100px;
-  width: 100px;
-  background-color: rgb(7, 78, 132);
+
+.card {
+  background-color: rgb(237, 198, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cards{
+.cards {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 40px 60px;
   width: 80%;
   height: 80%;
 }
+
+.card img {
+  width: 60%;
+}
+
+ @media only screen and (max-width: 600px) {
+
+   .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px 20px;
+    width: 80%;
+    height: 80%;
+  }
