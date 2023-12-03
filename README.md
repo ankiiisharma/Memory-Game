@@ -1,8 +1,9 @@
 # Memory-Game
 A classic memory game where players match pairs of cards to clear the board.
 
-**Live Demo: ** 
-![Live](https://www.flaticon.com/free-icon/live_3049365?term=live&page=1&position=17&origin=tag&related_id=3049365) https://ankiiisharma.github.io/Memory-Game/
+# Live Demo:
+![Live](https://img.icons8.com/?size=48&id=HAdDrhGGO64N&format=png) <br>
+https://ankiiisharma.github.io/Memory-Game/
 
 # About Project:
 
