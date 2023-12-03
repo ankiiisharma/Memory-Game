@@ -3,7 +3,7 @@ A classic memory game where players match pairs of cards to clear the board.
 
 # About Project:
 
-A Dynamic web-based memory challenge! Memery Game is crafted using HTML, CSS, and JavaScript, leveraging the power of the Document Object Model (DOM) to create an engaging and interactive experience.
+A Dynamic web-based memory challenge! Memory Game is crafted using HTML, CSS, and JavaScript, leveraging the power of the Document Object Model (DOM) to create an engaging and interactive experience.
 
 **About Game:** <br>
 The game starts with all cards face down.
@@ -29,11 +29,12 @@ Use code with caution.<br>
 
 Open the `index.html` file in a web browser.
 
-#Contributing
-Fork the repository.
-Create your changes.
-Commit your changes and push them to your fork.
-Create a pull request to merge your changes into the main branch.
+##Contributing
+
+- Fork the repository.
+- Create your changes.
+- Commit your changes and push them to your fork.
+- Create a `pull request` to merge your changes into the main branch.
 
 
 ## Screenshots
