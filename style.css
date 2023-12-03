@@ -4,7 +4,36 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    color: #fff;
+    font-family: Montserrat;
+
+    /* gradient */
+
+    background: linear-gradient(286deg, #D883e9, #1450A3);
+    background-size: 400% 400%;
+  
+    -webkit-animation: AnimationName 41s ease infinite;
+    -moz-animation: AnimationName 41s ease infinite;
+    animation: AnimationName 41s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 75%}
+    50%{background-position:100% 26%}
+    100%{background-position:0% 75%}
 }
+
+
 
 .main{
   color: #fff;
@@ -13,6 +42,23 @@ body{
   margin-bottom: 30%;
   align-items: center;
 }
+
+.starting{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.heading1{
+  font-family: Poppins;
+  font-size: medium;
+  font-weight: 400;
+}
+/* 
+.heading1:hover{
+  color: rgb(36, 36, 46);
+  background-color: #F09819;
+} */
 
 .button-87 {
   font-family: Montserrat;
@@ -45,11 +91,19 @@ body{
 }
 
 
+
 .card {
   background-color: rgb(237, 198, 25);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card:hover{
+  cursor: pointer;
+  background-color: #f09819;
+  transition: 500ms;
+  box-shadow: rgba(22, 22, 22, 0.071)
 }
 
 .cards {
@@ -65,7 +119,26 @@ body{
   width: 60%;
 }
 
- @media only screen and (max-width: 600px) {
+.hide{
+  display: none;
+}
+
+.ending{
+  display: flex;
+  flex-direction: column;
+}
+
+.endingheading{
+  font-family: Poppins;
+  font-size: medium;
+  font-weight: 400;
+}
+
+
+
+
+
+@media(max-width: 600px){
 
    .cards{
     display: grid;
@@ -74,4 +147,5 @@ body{
     gap: 20px 20px;
     width: 80%;
     height: 80%;
-  }
+}
+}
