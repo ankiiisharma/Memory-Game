@@ -1,6 +1,9 @@
 # Memory-Game
 A classic memory game where players match pairs of cards to clear the board.
 
+**Live Demo: ** 
+![Live](https://www.flaticon.com/free-icon/live_3049365?term=live&page=1&position=17&origin=tag&related_id=3049365) https://ankiiisharma.github.io/Memory-Game/
+
 # About Project:
 
 A Dynamic web-based memory challenge! Memory Game is crafted using HTML, CSS, and JavaScript, leveraging the power of the Document Object Model (DOM) to create an engaging and interactive experience.
